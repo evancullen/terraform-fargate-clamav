@@ -10,7 +10,7 @@ terraform {
   backend "s3" {
     encrypt        = true
     bucket         = "tf-clamav-state-east-1"
-    dynamodb_table = "tf-dynamodb-lock"
+    dynamodb_table = "tf-dynamodb-lock-east-1"
     region         = "us-east-1"
     key            = "terraform.tfstate"
     

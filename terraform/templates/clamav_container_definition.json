@@ -17,11 +17,11 @@
       },
       {
         "name": "QUARANTINE_BUCKET",
-        "value": "clamav-quarantine-bucket"
+        "value": "clamav-quarantine-bucket-east-1"
       },
       {
         "name": "CLEAN_BUCKET",
-        "value": "clamav-clean-bucket"
+        "value": "clamav-clean-bucket-east-1"
       }
     ]
   }
