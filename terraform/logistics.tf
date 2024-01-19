@@ -7,7 +7,7 @@ data "aws_caller_identity" "current" {}
 
 resource "aws_s3_bucket" "quarantine_bucket" {
   provider = aws.east
-  bucket   = "clamav-quarantine-bucket"
+  bucket   = "clamav-quarantine-bucket-east-1"
   acl      = "private"
 
   cors_rule {
@@ -31,7 +31,7 @@ resource "aws_s3_bucket" "quarantine_bucket" {
 
 resource "aws_s3_bucket" "clean_bucket" {
   provider = aws.east
-  bucket   = "clamav-clean-bucket"
+  bucket   = "clamav-clean-bucket-east-1"
   acl      = "private"
 
   cors_rule {
